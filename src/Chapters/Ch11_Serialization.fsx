@@ -177,8 +177,6 @@ module SerializationDto =
           
         //<
 
-#I "../../packages/Newtonsoft.Json/lib/net40"
-#r "Newtonsoft.Json"
 (*
 /// or dummy version to make code compile!
 module Newtonsoft =

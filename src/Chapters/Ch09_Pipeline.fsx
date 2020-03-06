@@ -1398,8 +1398,6 @@ module TooManyDependencies =
             dotDotDot()
     //< 
 
-#r "../../packages/NUnit/lib/net45/nunit.framework.dll"
-
 module Testing = 
 
     let validateOrder _ _ _ _ = dotDotDot()

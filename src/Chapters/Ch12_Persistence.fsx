@@ -241,11 +241,6 @@ module CQRS2 =
 //
 // This snippets are designed to work with Azure
 // =========================================================
-#I "../../packages/WindowsAzure.Storage/lib/net45"
-#r "Microsoft.WindowsAzure.Storage"
-
-#I "../../packages/Newtonsoft.Json/lib/net45"
-#r "Newtonsoft.Json"
 
 module Json =
 
@@ -296,8 +291,6 @@ module AzureExample =
 //
 // This snippets are designed to work with SqlExpress
 // =========================================================
-#I "../../packages/FSharp.Data.SqlClient/lib/net40"
-#r "FSharp.Data.SqlClient"
 open FSharp.Data
 
 module RelationalDomain = 
